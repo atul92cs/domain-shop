@@ -1,0 +1,66 @@
+.navbar {
+
+
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.navbar a {
+
+    color: #FFFAFA	 !important;
+    opacity: 0.8;
+}
+
+
+.navbar a:hover {
+
+    opacity: 1;
+    background-color: #000000 !important;
+}
+.navbar-nav
+{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+#navigation
+{
+   background:url('../images/cover-image.jpg') center center no-repeat;
+   height:105vh;
+  background-size:cover;
+    display: flex;
+    flex-flow:column;
+}
+#about
+{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+#about h1
+
+{
+  text-align: center;
+}
+#search-bar
+{
+
+  flex: 1;
+  padding-top: 45vh;
+  padding-left: 75vh;
+}
+#working-model h1
+{
+  text-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+.work-section
+{
+  display:grid;
+  grid-template-columns:30% 40% 30%;
+  grid-gap:1em;
+}
+.work-section>div
+{
+  padding: 1em;
+}
