@@ -17,6 +17,7 @@ app.use(express.static(path.join(__dirname,'public')));
  app.use(session({ secret: "cats",saveUninitialized: true,
 resave: true }));
 app.get('/',route.home);
+app.get('/login',route.userLogin);
 app.listen(port,()=>{
     console.log('server started on' +' ' +port);
 });
